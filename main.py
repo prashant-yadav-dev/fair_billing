@@ -1,6 +1,6 @@
 # write a code for fibonacci series
-def fibonacci(n):
-    a, b = 0, 1
+def fibonacci_function(n):
+    a, b = 0, 5
     series = []
     for _ in range(n):
         series.append(a)
@@ -8,5 +8,5 @@ def fibonacci(n):
     return series
 
 
-print(fibonacci(10))
+print(fibonacci_function(10))
 print("Hello World")
