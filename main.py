@@ -1,5 +1,5 @@
 # write a code for fibonacci series
-def fibonacci(n):
+def fibonacci_function(n):
     a, b = 0, 1
     series = []
     for _ in range(n):
@@ -8,4 +8,4 @@ def fibonacci(n):
     return series
 
 
-print(fibonacci(10))
+print(fibonacci_function(10))
